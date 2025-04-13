@@ -4,8 +4,8 @@
 # Bytecode and PVM in Python
 
 ## Bytecode is:
-- 🔸 **Intermediate Instructions** are generated from Python code (.py) when it is run.
-- 🔸 These instructions are **not understood directly by the processor**, but rather by the **Python Virtual Machine (PVM)**.
+- 🔸 Intermediate Instructions** are generated from Python code (.py) when it is run.
+- 🔸 These instructions are **not understood directly by the processor**, but rather by the **Python Virtual Machine (PVM).
 
 ### Example:
 If you write the following code:
@@ -42,6 +42,4 @@ CALL_FUNCTION
 ## Summary:
 - `.py` ➜ Compiled to Bytecode ➜ Stored in `.pyc` ➜ Interpreted and executed by PVM ➜ Gives you output.
 ```
-
----
 
